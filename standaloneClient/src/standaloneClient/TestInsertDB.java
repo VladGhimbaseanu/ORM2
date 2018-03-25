@@ -63,7 +63,7 @@ public class TestInsertDB {
 			stock_client.setLimitQuanity(5);
 			stock_client.setPrice(5);
 			stock_client.setQuantity(5);
-			stock_client.setClientB2B(c);
+			stock_client.setClientB2B(c);	
 			
 			stock.insert(stock_client);
 		}
